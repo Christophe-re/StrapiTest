@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_slices_card_zones",
+  "info": {
+    "displayName": "CardZone",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "Cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.card"
+    }
+  }
+}

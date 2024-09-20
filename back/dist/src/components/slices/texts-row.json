@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_slices_texts_rows",
+    "info": {
+        "displayName": "TextsRow",
+        "icon": "apps"
+    },
+    "options": {},
+    "attributes": {
+        "TextLeft": {
+            "type": "text"
+        },
+        "TextRight": {
+            "type": "text"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_slices_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "Columns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.column-text"
+    }
+  }
+}

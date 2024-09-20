@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_slices_column_texts",
+  "info": {
+    "displayName": "ColumnText",
+    "icon": "arrowRight"
+  },
+  "options": {},
+  "attributes": {
+    "Text1": {
+      "type": "text"
+    },
+    "Text2": {
+      "type": "text"
+    },
+    "Text3": {
+      "type": "string"
+    },
+    "Text4": {
+      "type": "text"
+    }
+  }
+}

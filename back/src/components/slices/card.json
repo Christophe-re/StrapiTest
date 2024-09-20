@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_slices_cards",
+  "info": {
+    "displayName": "Card",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "LinkText": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

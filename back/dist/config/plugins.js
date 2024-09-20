@@ -1,0 +1,57 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = {
+    "strapi-plugin-populate-deep": {
+        config: {
+            defaultDepth: 5, // Default is 5
+        },
+    },
+    // ...
+    "schemas-to-ts": {
+        enabled: true,
+        config: {
+            acceptedNodeEnvs: ["development"],
+            commonInterfacesFolderName: "schemas-to-ts",
+            alwaysAddEnumSuffix: true,
+            alwaysAddComponentSuffix: true,
+            usePrettierIfAvailable: true,
+            logLevel: 2,
+            destinationFolder: "generated-interfaces",
+        },
+    },
+    // ...
+    documentation: {
+        enabled: true,
+        config: {
+            openapi: "3.0.0",
+            info: {
+                version: "1.0.0",
+                title: "DOCUMENTATION",
+                description: "",
+                termsOfService: "YOUR_TERMS_OF_SERVICE_URL",
+                contact: {
+                    name: "TEAM",
+                    email: "contact-email@something.io",
+                    url: "mywebsite.io",
+                },
+                license: {
+                    name: "Apache 2.0",
+                    url: "https://www.apache.org/licenses/LICENSE-2.0.html",
+                },
+            },
+            "x-strapi-config": {
+                // Leave empty to ignore plugins during generation
+                plugins: [],
+                path: "/documentation",
+            },
+            servers: [
+                { url: "http://localhost:1337/api", description: "Development server" },
+            ],
+            externalDocs: {
+                description: "Find out more",
+                url: "https://docs.strapi.io/developer-docs/latest/getting-started/introduction.html",
+            },
+            security: [{ bearerAuth: [] }],
+        },
+    },
+};
